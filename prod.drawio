@@ -1,9 +1,152 @@
-<mxfile host="app.diagrams.net" modified="2023-10-28T09:22:03.243Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.8" etag="EySelA8f2Ok7dq8MF-q9" type="github">
-  <diagram name="Страница — 1" id="qq1M61GmxYCtacZpHnqJ">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-10-28T13:26:28.353Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="zZGYreQMYJQiDGzZgqhl" version="22.0.8" type="github">
+  <diagram name="Theme" id="qq1M61GmxYCtacZpHnqJ">
+    <mxGraphModel dx="2049" dy="1083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AwIlpi2EelWyEaizLiH--1" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;ThemeContext&lt;/b&gt;.ts&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="210" y="240" width="130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;strokeColor=#009900;dashPattern=8 8;" edge="1" parent="1" source="AwIlpi2EelWyEaizLiH--3" target="AwIlpi2EelWyEaizLiH--31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--3" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-family: Verdana; background-color: initial;&quot;&gt;export const &lt;b&gt;&lt;font color=&quot;#009900&quot;&gt;ThemeContext &lt;/font&gt;&lt;/b&gt;= &lt;/span&gt;&lt;b style=&quot;font-family: Verdana; background-color: initial;&quot;&gt;createContext&lt;/b&gt;&lt;span style=&quot;font-family: Verdana; background-color: initial;&quot;&gt;({});&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="390" width="350" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--4" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;ThemeProvider&lt;/b&gt;.tsx&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="760" y="240" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--10" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;curved=1;strokeColor=#000000;" edge="1" parent="1" source="AwIlpi2EelWyEaizLiH--5" target="AwIlpi2EelWyEaizLiH--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--5" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;src&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="200" y="41" width="40" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;strokeColor=#000000;" edge="1" parent="1" source="AwIlpi2EelWyEaizLiH--6" target="AwIlpi2EelWyEaizLiH--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;curved=1;strokeColor=#000000;" edge="1" parent="1" source="AwIlpi2EelWyEaizLiH--6" target="AwIlpi2EelWyEaizLiH--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--6" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;theme&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="300" y="41" width="50" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--7" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;ThemeContext.ts&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="410" y="41" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--8" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;ThemeProvider.tsx&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="410" y="91" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--9" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;useTheme.ts&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="410" y="140" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--14" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;curved=1;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="53.71" as="sourcePoint" />
+            <mxPoint x="410" y="53.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AwIlpi2EelWyEaizLiH--23" target="AwIlpi2EelWyEaizLiH--24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--23" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;const &lt;b style=&quot;&quot;&gt;defaultTheme &lt;/b&gt;= localStorage.getItem(&lt;b&gt;LOCAL_STORAGE_THEME_KEY&lt;/b&gt;);&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="580" y="300" width="510" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AwIlpi2EelWyEaizLiH--24" target="AwIlpi2EelWyEaizLiH--30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--24" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;const [&lt;b&gt;theme&lt;/b&gt;, &lt;b&gt;setTheme&lt;/b&gt;] = useState(&lt;b style=&quot;&quot;&gt;defaultTheme&lt;/b&gt;);&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB366;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="645" y="390" width="380" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;strokeColor=#007FFF;" edge="1" parent="1" source="AwIlpi2EelWyEaizLiH--27" target="AwIlpi2EelWyEaizLiH--23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--27" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;export const &lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;LOCAL_STORAGE_THEME_KEY&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; = &#39;theme&#39;;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="300" width="350" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--30" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;const &lt;b&gt;defaultProps &lt;/b&gt;= &lt;b style=&quot;&quot;&gt;useMemo&lt;/b&gt;(() =&amp;gt; ({&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&amp;nbsp; &amp;nbsp; theme: &lt;font color=&quot;#ff8000&quot;&gt;&lt;b&gt;theme&lt;/b&gt;&lt;/font&gt;,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&amp;nbsp; &amp;nbsp; setTheme: &lt;b&gt;&lt;font color=&quot;#ff8000&quot;&gt;setTheme&lt;/font&gt;&lt;/b&gt;,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;}), [&lt;b&gt;&lt;font color=&quot;#ff8000&quot;&gt;theme&lt;/font&gt;&lt;/b&gt;]);&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="480" width="290" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--31" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot; face=&quot;Verdana&quot;&gt;return (&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot; face=&quot;Verdana&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;lt;&lt;b&gt;ThemeContext&lt;/b&gt;.&lt;b&gt;Provider &lt;/b&gt;value={&lt;b&gt;defaultProps&lt;/b&gt;}&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot; face=&quot;Verdana&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;{children}&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot; face=&quot;Verdana&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;lt;/&lt;b&gt;ThemeContext&lt;/b&gt;.&lt;b&gt;Provider&lt;/b&gt;&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot; face=&quot;Verdana&quot;&gt;);&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="660" y="630" width="370" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.473;entryY=-0.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AwIlpi2EelWyEaizLiH--30" target="AwIlpi2EelWyEaizLiH--31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--40" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;App&lt;/b&gt;.tsx&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="240" width="130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;strokeColor=#009900;" edge="1" parent="1" source="AwIlpi2EelWyEaizLiH--42" target="AwIlpi2EelWyEaizLiH--62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2460" y="253" />
+              <mxPoint x="2460" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--42" value="&lt;font style=&quot;&quot;&gt;&lt;b&gt;useTheme&lt;/b&gt;.ts&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="2160" y="240" width="130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--44" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;index&lt;/b&gt;.tsx&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="240" width="130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;strokeColor=#009900;" edge="1" parent="1" source="AwIlpi2EelWyEaizLiH--45" target="AwIlpi2EelWyEaizLiH--40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1570" y="370" />
+              <mxPoint x="1570" y="253" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--45" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot; color=&quot;#000000&quot;&gt;render(&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot; color=&quot;#000000&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;lt;BrowserRouter&amp;gt;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;lt;&lt;/font&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#009900&quot;&gt;ThemeProvider&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot; color=&quot;#000000&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&amp;lt;App /&amp;gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;lt;/&lt;/font&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#009900&quot;&gt;ThemeProvider&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot; color=&quot;#000000&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&amp;lt;/BrowserRouter&amp;gt;,&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot; color=&quot;#000000&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;document.getElementById(&#39;root&#39;)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot; color=&quot;#000000&quot;&gt;)&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="300" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;strokeColor=#009900;" edge="1" parent="1" source="AwIlpi2EelWyEaizLiH--4" target="AwIlpi2EelWyEaizLiH--45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="253" />
+              <mxPoint x="1120" y="363" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AwIlpi2EelWyEaizLiH--47" target="AwIlpi2EelWyEaizLiH--53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--47" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;const { &lt;b&gt;theme&lt;/b&gt;, &lt;b&gt;setTheme &lt;/b&gt;} = useContext(&lt;b&gt;&lt;font color=&quot;#009900&quot;&gt;ThemeContext&lt;/font&gt;&lt;/b&gt;);&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="300" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=0;curved=1;strokeColor=#009900;" edge="1" parent="1" source="AwIlpi2EelWyEaizLiH--51" target="AwIlpi2EelWyEaizLiH--42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1990" y="325" />
+              <mxPoint x="1990" y="253" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--51" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;const { &lt;b&gt;&lt;font color=&quot;#009900&quot;&gt;theme&lt;/font&gt;&lt;/b&gt;, &lt;b&gt;&lt;font color=&quot;#009900&quot;&gt;toggleTheme &lt;/font&gt;&lt;/b&gt;} = useTheme();&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="300" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AwIlpi2EelWyEaizLiH--53" target="AwIlpi2EelWyEaizLiH--54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--53" value="&lt;div style=&quot;&quot;&gt;&lt;div&gt;const &lt;b&gt;&lt;font color=&quot;#009900&quot;&gt;toggleTheme &lt;/font&gt;&lt;/b&gt;= () =&amp;gt; {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;const &lt;b&gt;newTheme &lt;/b&gt;= theme === Theme.DARK ? Theme.LIGHT : Theme.DARK;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;setTheme(&lt;b&gt;newTheme&lt;/b&gt;);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;localStorage.setItem(&lt;b&gt;LOCAL_STORAGE_THEME_KEY&lt;/b&gt;, newTheme);&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;strokeWidth=1;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="390" width="450" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--54" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;return {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;b&gt;&lt;font color=&quot;#009900&quot;&gt;theme&lt;/font&gt;&lt;/b&gt;,&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;b&gt;&lt;font color=&quot;#009900&quot;&gt;toggleTheme&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="2157.5" y="550" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--61" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;App&lt;/b&gt;.tsx&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="2630" y="240" width="130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AwIlpi2EelWyEaizLiH--62" target="AwIlpi2EelWyEaizLiH--63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--62" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;const { &lt;b&gt;&lt;font color=&quot;#009900&quot;&gt;theme&lt;/font&gt;&lt;/b&gt;, &lt;b&gt;&lt;font color=&quot;#009900&quot;&gt;toggleTheme &lt;/font&gt;&lt;/b&gt;} = useTheme();&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2540" y="300" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AwIlpi2EelWyEaizLiH--63" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;return (&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&amp;lt;div className={`app ${&lt;b&gt;&lt;font color=&quot;#009900&quot;&gt;theme&lt;/font&gt;&lt;/b&gt;}`}&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&amp;lt;button onClick={&lt;b&gt;&lt;font color=&quot;#009900&quot;&gt;toggleTheme&lt;/font&gt;&lt;/b&gt;}&amp;gt;TOGGLE&amp;lt;/button&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&amp;lt;Link to={&#39;/&#39;}&amp;gt;Главная&amp;lt;/Link&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&amp;lt;/div&amp;gt;&lt;/div&gt;&lt;div&gt;)&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="2525" y="390" width="340" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
